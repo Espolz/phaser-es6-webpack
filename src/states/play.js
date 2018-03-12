@@ -2,10 +2,7 @@
 import Phaser from 'phaser'
 import Mushroom from '../prefabs/mushroom'
 
-export default class Game extends Phaser.State {
-  init() { }
-  preload() { }
-
+export default class Play extends Phaser.State {
   create() {
     this.mushroom = new Mushroom({
       game: this.game,

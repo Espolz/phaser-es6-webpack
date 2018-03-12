@@ -12,6 +12,6 @@ export default class Boot extends Phaser.State {
   }
 
   render() {
-    this.state.start('Splash');
+    this.state.start('Preload');
   }
 }
